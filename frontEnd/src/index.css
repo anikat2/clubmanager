@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Barcode+128+Text&display=swap');
+
+
+body{
+    background-color: #F6F4D2;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+td{
+   padding-left: 5vw;
+   padding-right: 5vw;
+}
+#idis{
+    background-color: #F19C79;
+}
+#nameis{
+    background-color: #CBDFBD; 
+}
+#phoneis{
+    background-color: #D4E09B; 
+}
+#emailis{
+    background-color: #A44A3F; 
+}
+#title{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 3vw;  
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 10vw;
+    padding-left: 15vw;
+}
+
+#titleBlock{
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;  
+    padding-right: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #A4A8D1;
+}
+
+.form{
+    text-align: center;
+}
+#navBar{
+
+    background-color: #D4E09B;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+button{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    border-color: transparent;
+    padding-right: 2.7vw;
+    font-size: 2vw;
+    height:5vw;
+}
+button:hover{
+    text-decoration-line: underline;
+}
+#tableWrap{
+    text-align: center;
+}
+#idsWrap{
+    padding-left: 20vw;
+}
+#countsWrap{
+    padding-left: 35vw;
+}
